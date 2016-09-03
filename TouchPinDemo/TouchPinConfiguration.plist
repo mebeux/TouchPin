@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>passcodeConfiguration</key>
+	<dict>
+		<key>isTouchIDAllowed</key>
+		<true/>
+		<key>shouldRequestTouchIDImmediately</key>
+		<true/>
+		<key>passcodeLength</key>
+		<integer>4</integer>
+		<key>maximumInccorectPasscodeAttempts</key>
+		<integer>2</integer>
+		<key>resetWhenIncorrectPasscode</key>
+		<true/>
+	</dict>
+	<key>passcodeStyle</key>
+	<dict>
+		<key>backgroundColor</key>
+		<string>#00000005</string>
+		<key>titleColor</key>
+		<string>#FFFFFF  </string>
+		<key>descriptionColor</key>
+		<string>#FFFFFF</string>
+		<key>buttonColor</key>
+		<string>#286A9C</string>
+		<key>buttonBorderColor</key>
+		<string>#286A9C</string>
+		<key>buttonTextColor</key>
+		<string>#FFFFFF</string>
+		<key>buttonBackgroundColor</key>
+		<string>#286A9C05</string>
+		<key>optionsColor</key>
+		<string>#FFFFFF</string>
+		<key>numberColor</key>
+		<string>#FFFFFF</string>
+		<key>inactiveCodeColor</key>
+		<string>#FFFFFF</string>
+		<key>activeCodeColor</key>
+		<string>#286A9C</string>
+		<key>errorCodeColor</key>
+		<string>#286A9C</string>
+		<key>backgroundImage</key>
+		<string>background</string>
+	</dict>
+	<key>passcodeText</key>
+	<dict>
+		<key>passcodeLockEnterTitle</key>
+		<string>Enter Passcode</string>
+		<key>passcodeLockEnterDescription</key>
+		<string>Enter your passcode to proceed.</string>
+		<key>passcodeLockSetTitle</key>
+		<string>Enter a Passcode</string>
+		<key>passcodeLockSetDescription</key>
+		<string>Choose your passcode.</string>
+		<key>passcodeLockConfirmTitle</key>
+		<string>Confirm Passcode</string>
+		<key>passcodeLockConfirmDescription</key>
+		<string>Enter the passcode again.</string>
+		<key>passcodeLockChangeTitle</key>
+		<string>Enter Old Passcode</string>
+		<key>passcodeLockChangeDescription</key>
+		<string>Enter your old passcode.</string>
+		<key>passcodeLockMismatchTitle</key>
+		<string>Try again</string>
+		<key>passcodeLockMismatchDescription</key>
+		<string>Passcodes didn\&apos;t match.</string>
+		<key>passcodeLockTouchIDReason</key>
+		<string>Authentication required to proceed</string>
+		<key>passcodeLockTouchIDButton</key>
+		<string>Enter Passcode</string>
+		<key>passcodeLockCancelButton</key>
+		<string>Cancel</string>
+		<key>passcodeLockChangeButton</key>
+		<string>Change</string>
+		<key>passcodeLockDeleteButton</key>
+		<string>Delete</string>
+	</dict>
+</dict>
+</plist>
