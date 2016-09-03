@@ -8,5 +8,5 @@ Pod::Spec.new do |spec|
   spec.requires_arc = true
     spec.homepage = "https://github.com/mebeux/TouchPin"
   spec.source = { git: "https://github.com/mebeux/TouchPin.git", tag: "v#{spec.version}", submodules: true }
-  spec.source_files = "TouchPin/**/*.{h,swift}"
+  spec.source_files = "TouchPin/**/*.{h,swift,xib}"
 end
